@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Maryorin Carbuccia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="CSS - My Site Images/cloud.png" alt="cloud-img">
+    <h1>Soy Maryorin.</h1>
+    <h2>una <span class="pro">pro</span>gramadora.</h2>
+    <img class="bottom-cloud" src="CSS - My Site Images/cloud.png" alt="cloud-img">
+    <img src="CSS - My Site Images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+
+    <div class="profile">
+
+      <img class="maryor-img" src="CSS - My Site Images/Maryor.png" alt="img-maryorin">
+
+      <h2>Hello</h2>
+      <p class="intro"> Soy una web programmer. Yo 💙 los libros y el sushi.</p>
+
+    </div>
+
+    <hr>
+
+    <div class="skills">
+
+      <h2>Mis habilidades.</h2>
+
+      <div class="skill-row">
+
+        <img class="data-img" src="CSS - My Site Images/laptop.png" alt="img-computer">
+
+        <h3>Data entry</h3>
+
+        <p>Tengo 3 años de experiencia en al campo de data entry.</p>
+
+      </div>
+
+      <div class="skill-row">
+
+        <img class="computer-img" src="CSS - My Site Images/computer2.png" alt="img-computer">
+
+        <h3>Web development</h3>
+
+        <p>Con mas de 1 año de experiencia en web development. </p>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="contact-me">
+
+      <h2>Get In Touch</h2>
+
+<h3>Any interest?</h3>
+<p></p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+
+    </div>
+
+  </div>
+
+  <div class="bottom-container">
+
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+
+    <p class="copyright">© 2021 Maryorin Carbuccia.</p>
+
+  </div>
+
+</body>
+
+</html>
+
+</html>
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-size: 90px;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border-style: dotted;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    width: 4%;
+    border-bottom: none;
+    margin: 100px auto;
+}
+a{
+    color: #11999E;
+    ont-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.pro {
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.data-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computer-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #488585);
+    background-image: -moz-linear-gradient(top, #66BFBF, #488585);
+    background-image: -ms-linear-gradient(top, #66BFBF, #488585);
+    background-image: -o-linear-gradient(top, #66BFBF, #488585);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#66BFBF), to(#488585));
+    background-image: linear-gradient(to bottom, #66BFBF, #488585);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    padding: 7px;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+  
+ .btn:hover {
+    border: solid #337FED 0px;
+    background: #8AF9F9;
+    background-image: -webkit-linear-gradient(top, #8AF9F9, #64B4B4);
+    background-image: -moz-linear-gradient(top, #8AF9F9, #64B4B4);
+    background-image: -ms-linear-gradient(top, #8AF9F9, #64B4B4);
+    background-image: -o-linear-gradient(top, #8AF9F9, #64B4B4);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#8AF9F9), to(#64B4B4));
+    background-image: linear-gradient(to bottom, #8AF9F9, #64B4B4);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
